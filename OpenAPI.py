@@ -30,6 +30,7 @@ def weerapi():
         current_temperature_2m = current.Variables(0).Value()
 
         print(f"De huidige temratuur in Utrecht is: {current_temperature_2m:.1f} C")
+        print(f"De huidige temratuur in Utrecht is: {current_temperature_2m:.1f} C")
 
         # Process hourly data. The order of variables needs to be the same as requested.
 
